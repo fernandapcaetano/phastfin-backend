@@ -1,0 +1,13 @@
+services:
+  pgvector:
+    image: pgvector/pgvector:0.8.0-pg17
+    environment:
+      POSTGRES_DB: phastfin_database
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pwd
+    ports:
+      - "5432:5432"
+  redis:
+    image: 'redis:latest'
+    ports:
+      - '6379'

@@ -1,0 +1,13 @@
+Copyright (c) 2025 Maria Fernanda Pereira Caetano
+
+Permission is granted to view, copy, and modify this code
+for personal and educational purposes only.
+
+The use of this software, in whole or in part, for commercial purposes 
+is strictly prohibited, including but not limited to products, services,
+or projects that generate revenue.
+
+The author provides no warranty and shall not be held liable for any 
+damages arising from the use of this software.
+
+All rights reserved.
