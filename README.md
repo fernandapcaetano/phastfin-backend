@@ -1,9 +1,3 @@
-Aqui está um **README.md completo, profissional, bem estruturado e totalmente alinhado aos controllers e às classes de domínio que você enviou**, incluindo tecnologias utilizadas (pgvector, RAG, embeddings, AI, Docker, etc).
-
-Você pode copiar e colar diretamente no seu repositório.
-
----
-
 # 📄 **Phastfin - AI Statement Extractor - MVP**
 
 ## 🧠 Visão Geral
