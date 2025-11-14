@@ -1,3 +1,9 @@
+Aqui está um **README.md completo, profissional, bem estruturado e totalmente alinhado aos controllers e às classes de domínio que você enviou**, incluindo tecnologias utilizadas (pgvector, RAG, embeddings, AI, Docker, etc).
+
+Você pode copiar e colar diretamente no seu repositório.
+
+---
+
 # 📄 **Phastfin - AI Statement Extractor - MVP**
 
 ## 🧠 Visão Geral
@@ -51,7 +57,7 @@ A aplicação segue uma arquitetura moderna baseada em:
 | **RAG - Retrieval-Augmented Generation** | Respostas inteligentes usando dados reais do usuário |
 | **OpenAI / LLM**                         | Interpretação dos extratos e consultas               |
 | **Docker & Docker Compose**              | Infraestrutura e containerização                     |
-| **Java 21**                              | Linguagem base                                       |
+| **Java 17+**                             | Linguagem base                                       |
 | **Swagger / OpenAPI**                    | Documentação automática da API                       |
 
 ---
@@ -264,6 +270,13 @@ services:
 ---
 
 # 📘 **Como Rodar o Projeto**
+
+### 1. Criar uma conta na OpenRouter
+Vá no site https://openrouter.ai/, crie uma conta e crie também uma api key e atribua essa API Key na sua váriavel de ambiente do seguinte modo:
+
+```bash
+OPENROUTER_API_KEY=<SUA_API_KEY> 
+```
 
 ### 1. Clonar o repositório
 
