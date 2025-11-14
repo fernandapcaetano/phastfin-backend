@@ -275,7 +275,7 @@ services:
 Vá no site https://openrouter.ai/, crie uma conta e crie também uma api key e atribua essa API Key na sua váriavel de ambiente do seguinte modo:
 
 ```bash
-OPENROUTER_API_KEY=<SUA_API_KEY>
+OPENROUTER_API_KEY=<SUA_API_KEY> 
 ```
 
 ### 1. Clonar o repositório
