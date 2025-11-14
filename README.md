@@ -51,7 +51,7 @@ A aplicação segue uma arquitetura moderna baseada em:
 | **RAG - Retrieval-Augmented Generation** | Respostas inteligentes usando dados reais do usuário |
 | **OpenAI / LLM**                         | Interpretação dos extratos e consultas               |
 | **Docker & Docker Compose**              | Infraestrutura e containerização                     |
-| **Java 17+**                             | Linguagem base                                       |
+| **Java 21**                              | Linguagem base                                       |
 | **Swagger / OpenAPI**                    | Documentação automática da API                       |
 
 ---
