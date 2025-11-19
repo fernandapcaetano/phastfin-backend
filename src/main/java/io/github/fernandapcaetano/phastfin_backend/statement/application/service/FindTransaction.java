@@ -159,12 +159,12 @@ public class FindTransaction {
 
             // 🔹 Categoria
             if (category != null) {
-                predicates.add(cb.equal(root.get("category"), category));
+                predicates.add(cb.equal(root.get("category"), category.name()));
             }
 
             // 🔹 Tipo
             if (type != null) {
-                predicates.add(cb.equal(root.get("type"), type));
+                predicates.add(cb.equal(root.get("type"), type.name()));
             }
 
             // 🔹 Intervalo de datas
@@ -194,7 +194,5 @@ public class FindTransaction {
             return cb.and(predicates.toArray(new Predicate[0]));
         };
     }
-
-
 }
 
